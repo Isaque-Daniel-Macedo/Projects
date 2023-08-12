@@ -30,6 +30,7 @@ Your users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- JavaScript
 
 ## Author
 
