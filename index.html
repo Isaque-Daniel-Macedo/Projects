@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+
+    <!--Rating States-->
+
+    <div class="card card--primary">
+
+      <div class="card__icon"><img src="images/icon-star.svg"></div>
+
+      <h2 class="card__title">How did we do?</h2>
+
+      <p class="card__text">Please let us know how we did with your support request. All feedback to help us improve our offering!</p>
+
+      <div class="card__rating">
+        <span class="card__rating__number" onclick="selectRating(1)">1</span>
+        <span class="card__rating__number" onclick="selectRating(2)">2</span>
+        <span class="card__rating__number" onclick="selectRating(3)">3</span>
+        <span class="card__rating__number" onclick="selectRating(4)">4</span>
+        <span class="card__rating__number" onclick="selectRating(5)">5</span>
+      </div>
+
+      <button class="card__btn" onclick="submit()">Submit</button>
+    </div>
+
+    <!--Rating States End-->
+
+    <!--Thank you!-->
+
+    <div class="card card--thank-you hidden">
+
+      <img class="card__image" src="images/illustration-thank-you.svg">
+
+      <div class="card__result"> <span>You selected <span class="card__result__value">X</span> out of 5</span></div>
+
+      <h2 class="card__title">Thank you!</h2>
+
+      <p class="card__text">We appreciate you taking the time to give a rating. If you ever more support, don't hesitate to get in touch!</p>
+    </div>
+
+        <!--Thank you! End-->
+
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
