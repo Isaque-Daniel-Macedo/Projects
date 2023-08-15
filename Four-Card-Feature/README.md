@@ -4,7 +4,7 @@
 
 ## URL
 
-- https://four-card-responsive.vercel.app/
+https://four-card-responsive.vercel.app/
 
 ## Welcome! 👋
 
