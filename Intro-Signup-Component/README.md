@@ -26,3 +26,11 @@ Your users should be able to:
 - CSS custom properties
 - Flexbox
 - JavaScript
+
+### Author
+
+- Isaque Daniel
+
+### Web Url
+
+- Url: (https://intro-signup-with-js.vercel.app/)
