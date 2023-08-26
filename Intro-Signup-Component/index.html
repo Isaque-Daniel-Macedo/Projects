@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icon-error.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>Intro component with sign up form</title>
+
+</head>
+
+<body>
+
+  <section class="login--web">
+    
+    <div class="text--area">
+  
+      <h1 class="text--area__title">Learn to code by watching others</h1>
+    
+      <p class="text--area__txt">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+  
+    </div>
+  
+    <div class="login--area">
+  
+      <div class="login--area__offer">
+        <p class="login--area__offer__text"><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+      </div>
+    
+      <div name="d1" class="login--area__card">
+  
+          <input id="fName" class="login--area__card__input" type="text" placeholder="First Name" onblur="fNameValid()">
+          <label for="email" id="msg--error--fName">Campo Vazio</label>
+          <input id="lName" class="login--area__card__input" type="text" placeholder="Last Name" onblur="lNameValid()">
+          <label for="email" id="msg--error--lName">Campo Vazio</label>
+          <input class="login--area__card__input" type="text" placeholder="Email Address" id="email" name="email" onblur="validationEmail(email)">
+          <label for="email" id="msg--error--email">Email Inválido</label>
+          <input id="password" class="login--area__card__input" type="password" placeholder="Password" onblur="passValid()">
+          <label for="email" id="msg--error--password">Campo Vazio</label>
+  
+  
+        <button id="btn" class="login--area__card__button"><span id="txt--btn">Claim your free trial</span><img id="img--btn" class="hidden" src="images/icon-error.svg"></button>
+  
+  
+        <p class="login--area__card__explanation">      By clicking the button, you are agreeing to <span class="login--area__card__explanation__red">our Terms and Services</span></p>
+  
+      </div>
+  
+    </div>
+
+  </section>
+  <section class="login--web--two">
+    <h1 class="login--web--two__title">O Cadastro foi realizado com sucesso!</h1>
+  </section>
+
+  <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+@media (min-width: 161px){
+    .text--area__title{
+        font-size: 16px;
+    }
+
+    .text--area__txt{
+        font-size: 12px;
+    }
+
+    .text--area{
+        width: 85vw;
+    }
+
+    .login--area{
+        width: 85vw;
+    }
+
+    .login--area__card{
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .login--area__card__input{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .login--area__card__button{
+        font-size: 14px;
+    }
+
+    .login--area__card__explanation{
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 280px){
+    .text--area__title{
+        font-size: 38px;
+    }
+
+    .text--area__txt{
+        font-size: 18px;
+    }
+
+    .text--area{
+        width: 85vw;
+    }
+
+    .login--area{
+        width: 85vw;
+    }
+
+    .login--area__card{
+        gap: 15px;
+    }
+
+    .login--area__card__input{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 375px){
+    .text--area__title{
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .text--area__txt{
+        font-size: 18px;
+    }
+
+    .login--area__card__input{
+        height: 60px;
+        font-size: 22px;
+    }
+
+    .login--area__offer{
+        height: 60px;
+    }
+
+    .login--area__card__button{
+        height: 60px;
+        font-size: 22px;
+    }
+
+    .login--area__card__explanation{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px){
+
+    .text--area__title{
+        font-size: 58px;
+    }
+
+    .text--area__txt{
+        font-size: 24px;
+    }
+
+    .login--area__offer{
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .login--area__card{
+        padding: 25px;
+    }
+
+    .login--area__card__input{
+        height: 80px;
+        font-size: 22px;
+    }
+
+    .login--area__card__button{
+        height: 80px;
+        font-size: 28px;
+    }
+
+    .login--area__card__explanation{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 1024px){
+    .login--web{
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    .text--area{
+        width: 35vw;
+        height: 100vh;
+        margin: 0 auto;
+    }
+
+    .login--area{
+        width: 50vw;
+        height: auto;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .login--area__card{
+        width: 85%;
+        height: 80vh;
+        align-self: flex-start;
+    }
+
+    .text--area__title{
+        font-size: 54px;
+        text-align: left;
+    }
+
+    .text--area__txt{
+        font-size: 18px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .login--area__offer{
+        width: 85%;
+        height: 10vh;
+        font-size: 20px;
+        align-self: flex-start;
+    }
+
+    .login--area__offer__text{
+        width: 80%;
+    }
+
+    .login--area__card{
+        padding: 25px;
+    }
+
+    .login--area__card__input{
+        height: 80px;
+        font-size: 22px;
+    }
+
+    .login--area__card__button{
+        height: 80px;
+        font-size: 28px;
+    }
+
+    .login--area__card__explanation{
+        font-size: 20px;
+    }
+}
