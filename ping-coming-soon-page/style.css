@@ -1,0 +1,185 @@
+/*
+- Mobile: 375px
+- Desktop: 1440px
+
+- font-family: 'Libre Franklin', sans-serif;
+- font-size: 20px
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root{
+    /*Primary*/
+    --Blue: hsl(223, 87%, 63%);
+    /*Secondary*/
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+    /*Neutral*/
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+    --Very-Dark-Blue-Shadow: hsl(210, 27%, 4%);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+}
+
+.card--title{
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card--title__img{
+    margin: 10% auto;
+}
+
+.card--title__h1{
+    font-weight: 300;
+    font-family: 'Libre Franklin', sans-serif;
+    color: var(--Gray);
+    font-size: 30px;
+}
+
+.card--title__h1 > span{
+    font-weight: 700;
+    color: var(--Very-Dark-Blue);
+}
+
+.card--title__h2{
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--Very-Dark-Blue);
+}
+
+.card--image{
+    margin-bottom: 60px;
+}
+
+.card--image__container{
+    width: 95vw;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.card--image__container__img{
+    width: 100%;
+}
+
+.card--title__login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.card--title__login__error{
+    width: 80%;
+}
+
+.card--title__login__input{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid var(--Pale-Blue);
+    padding-left: 30px;
+    color: var(--Gray);
+}
+
+.card--title__login__input:hover{
+    border: 2px solid var(--Pale-Blue);
+}
+
+.card--title__login__btn{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: var(--Blue);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card--title__login__btn:hover{
+    border: 1px solid var(--Blue);
+    background: transparent;
+    color: var(--Very-Dark-Blue);
+}
+
+.card--title__login__msgerror{
+    font-size: 13px;
+    align-self: center;
+    color: var(--Light-Red);
+    line-height: 8px;
+    margin-bottom: 30px;
+}
+
+.card--title__login__errorstats{
+    border: 1px solid var(--Light-Red);
+}
+
+.card--title__login__errorstats:hover{
+    border: 2px solid var(--Light-Red);
+}
+
+.hidden{
+    display: none;
+}
+
+.submited{
+    background: var(--Very-Dark-Blue);
+    border: none;
+    color: white;
+}
+
+.submited:hover{
+    background: var(--Very-Dark-Blue-Shadow);
+    color: white;
+    border: none;
+}
+
+.card--image__icons{
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.card--image__icons__twitter, .card--image__icons__facebook, .card--image__icons__instagram{
+    opacity: 0.6;
+    cursor: pointer;
+    height: 40px;
+}
+
+.card--image__icons__twitter:hover , .card--image__icons__facebook:hover, .card--image__icons__instagram:hover{
+    opacity: 1.0;
+    height: 44px;
+}
+
+.copy--paragraph{
+    color: var(--Gray);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10%;
+}

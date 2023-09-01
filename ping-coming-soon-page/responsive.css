@@ -1,0 +1,52 @@
+@media(min-width:320px){
+    .card--title__input{
+        width: 80%;
+    }
+    .card--title__h1{
+        font-size: 26px;
+    }
+    .card--title__h2{
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 768px){
+    .card--title__login{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 60%;
+        justify-content: flex-start;
+        text-align: left;
+    }
+    .card--title__img{
+        margin: 10% auto;
+        margin-bottom: 5%;
+    }
+    .card--title__h1{
+        font-size: 40px;
+    }
+    .card--title__h2{
+        margin-bottom: 3%;
+    }
+    .card--title__login__input{
+        width: 65%;
+        height: 50px;
+    }
+    .card--title__login__error{
+        width: 70%;
+        height: 50px;
+    }
+    .card--title__login__msgerror{
+        margin-left: 4%;
+        font-size: 15px;
+    }
+    .card--title__login__btn{
+        width: 30%;
+        height: 50px;
+    }
+    .card--image__container{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section class="card--title">
+
+    <img class="card--title__img" src="images/logo.svg">
+
+    <h1 class="card--title__h1">We are launching <span>soon!</span></h1>
+
+    <h2 class="card--title__h2">Subscribe and get notified</h2>
+
+    <div name="f1" class="card--title__login">
+      <input type="email" class="card--title__login__input" placeholder="Your email address..." id="email" onchange="verify(email)" onkeypress="verify(email)">
+      <button class="card--title__login__btn" onmousedown="submited()">Notify Me</button>
+      <span class="card--title__login__msgerror hidden">Pelase provide a valid email address</span>
+    </div>
+
+  </section>
+
+  <section class="card--image">
+
+    <div class="card--image__container">
+      <img class="card--image__container__img" src="images/illustration-dashboard.png">
+    </div>
+
+    <div class="card--image__icons">
+      <a href="https://www.twitter.com" target="_blank"><img src="images/icons8-twitter-48 (1).png" alt="Logo Twitter" class="card--image__icons__twitter"></a>
+      <a href="https://www.facebook.com" target="_blank"><img src="images/icons8-facebook-30.png" alt="Logo Facebook" class="card--image__icons__facebook"></a>
+      <a href="https://www.instagram.com" target="_blank"><img src="images/icons8-instagram-48.png" alt="Logo instagram" class="card--image__icons__instagram"></a>
+    </div>
+
+  </section>
+
+  <p class="copy--paragraph">&copy; Copyright Ping. All rights reserved</p>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Isaque Daniel</a>.
+    </p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
